@@ -1,0 +1,17 @@
+.step {
+    display: none;
+}
+.step.active {
+    display: block;
+}
+.readings{
+    max-width: 100%;
+    display: flex;
+}
+.form-control{
+    margin: 10px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
