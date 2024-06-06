@@ -63,7 +63,7 @@ $(document).ready(function() {
         let amount = card + paytm + cash + other;
         console.log(amount);
         console.log(total_cal);
-        let loss = Math.abs(amount - total_cal);
+        let loss = amount - total_cal;
         document.getElementById('result').textContent = total_cal;
         document.getElementById('cresult').textContent = amount;
         document.getElementById('loss').textContent = loss;
